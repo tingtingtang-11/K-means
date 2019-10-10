@@ -61,7 +61,7 @@ if __name__ == "__main__":
                '5Magnesium', '6Total phenols', '7Flavanoid',
                '8Nonflavanoid phenols', '9Proanthocyanins ', '10Color intensity ', '11Hue ',
                '12OD280/OD315 of diluted wines', '13Proline ']
-    data = getData("/Users/tangtingting/Downloads/wine.csv", columns)
+    data = getData("wine.csv", columns)
 
     x_data, y_data = data_processing(data)
 
